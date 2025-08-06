@@ -1,0 +1,13 @@
+{
+	"package": "optifinecitpatch.mixin",
+	"required": true,
+	"refmap": "mixins.optifinecitpatch.refmap.json",
+	"target": "@env(DEFAULT)",
+	"minVersion": "0.8.5",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"optifine.CustomItemsMixin_LogSpam"
+	],
+	"server": [],
+	"client": []
+}
