@@ -1,6 +1,7 @@
 package optifinecitpatch;
 
 import net.minecraftforge.fml.common.Mod;
+
 import optifinecitpatch.optifinecitpatch.Tags;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -9,7 +10,7 @@ import org.apache.logging.log4j.Logger;
         modid = Tags.MOD_ID,
         version = Tags.VERSION,
         name = Tags.MOD_NAME,
-        dependencies = "required-after:mixinbooter@[8.0,)",
+        dependencies = "required-after:mixinbooter",
         acceptableRemoteVersions = "*"
 )
 public class OptiFineCITPatch {

@@ -1,5 +1,6 @@
 package optifinecitpatch;
 
+import net.minecraftforge.common.ForgeVersion;
 import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin;
 import zone.rong.mixinbooter.ILateMixinLoader;
 
@@ -7,7 +8,9 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-@IFMLLoadingPlugin.MCVersion("1.12.2")
+
+@IFMLLoadingPlugin.Name("")
+@IFMLLoadingPlugin.MCVersion(ForgeVersion.mcVersion)
 public class OptiFineCITPatchPlugin implements IFMLLoadingPlugin , ILateMixinLoader {
 
 	@Override
